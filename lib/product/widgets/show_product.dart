@@ -15,7 +15,7 @@ class ShowProduct extends StatelessWidget {
   ) {
     return ListTile(
       leading: Image.network(
-        product.imageURL,
+        product.thumbnail,
       ),
       title: Text(
         product.description,
