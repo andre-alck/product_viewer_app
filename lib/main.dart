@@ -84,7 +84,7 @@ class Home extends StatelessWidget {
       products.add(
         Product(
           price: prices[i],
-          imageURL: imageURLs[i],
+          thumbnail: imageURLs[i],
           description: description[i],
         ),
       );

@@ -1,14 +1,14 @@
 class Product {
-  final String title;
+  final String? title;
   final String description;
   final double price;
   final String thumbnail;
 
   const Product({
-    required this.title,
+    this.title,
     required this.price,
-    required this.thumbnail,
     required this.description,
+    required this.thumbnail,
   });
 
   factory Product.fromJson(
